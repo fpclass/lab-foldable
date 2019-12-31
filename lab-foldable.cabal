@@ -1,19 +1,19 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.0.
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ef52e207e051723e61f866aedbc9438ad9447706ce04dc77a71189cf2957a45e
+-- hash: f0d35fe615c51e0de6abe85662bdf023e2b0f42b39f9d9a8d98bd16939b8fdac
 
-name:           lab8
-version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/fpclass/lab8#readme>
-homepage:       https://github.com/fpclass/lab8#readme
-bug-reports:    https://github.com/fpclass/lab8/issues
+name:           lab-foldable
+version:        0.2.0.0
+description:    Please see the README on GitHub at <https://github.com/fpclass/lab-foldable#readme>
+homepage:       https://github.com/fpclass/lab-foldable#readme
+bug-reports:    https://github.com/fpclass/lab-foldable/issues
 author:         Michael B. Gale
 maintainer:     m.gale@warwick.ac.uk
-copyright:      Copyright 2018 Michael B. Gale
+copyright:      Copyright 2020 Michael B. Gale
 license:        MIT
 license-file:   LICENSE
 build-type:     Simple
@@ -22,24 +22,24 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/fpclass/lab8
+  location: https://github.com/fpclass/lab-foldable
 
 library
   exposed-modules:
-      Lab8
+      Lab
   other-modules:
-      Paths_lab8
+      Paths_lab_foldable
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
   default-language: Haskell2010
 
-test-suite lab8-test
+test-suite lab-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Paths_lab8
+      Paths_lab_foldable
   hs-source-dirs:
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
@@ -47,5 +47,5 @@ test-suite lab8-test
       QuickCheck
     , base >=4.7 && <5
     , hspec
-    , lab8
+    , lab-foldable
   default-language: Haskell2010

@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lab 8: Foldables                                                           --
+-- Lab: Foldables                                                             --
 --------------------------------------------------------------------------------
 
 {-# LANGUAGE ScopedTypeVariables #-}
@@ -13,7 +13,7 @@ import Test.Hspec
 import Test.Hspec.QuickCheck
 import Test.QuickCheck
 
-import qualified Lab8 as L
+import qualified Lab as L
 
 --------------------------------------------------------------------------------
 

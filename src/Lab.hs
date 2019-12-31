@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lab 8: Foldables                                                           --
+-- Lab: Foldables                                                             --
 --------------------------------------------------------------------------------
 
-module Lab8 where
+module Lab where
 
 import Control.Applicative
 import Data.Foldable hiding (asum)

@@ -1,1 +1,1 @@
-# Lab 8: Foldables
+# Lab: Foldables
