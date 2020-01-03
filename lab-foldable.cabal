@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f0d35fe615c51e0de6abe85662bdf023e2b0f42b39f9d9a8d98bd16939b8fdac
+-- hash: 9dc875628d63070444c5d74426bef4c796b35b9066f8848442eb4eddac4fa14e
 
 name:           lab-foldable
 version:        0.2.0.0
@@ -42,7 +42,7 @@ test-suite lab-test
       Paths_lab_foldable
   hs-source-dirs:
       test
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -threaded -rtsopts
   build-depends:
       QuickCheck
     , base >=4.7 && <5
